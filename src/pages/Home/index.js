@@ -36,7 +36,7 @@ function Home() {
       <Header />
       <main>
         <Link className="link" to="/vaccines">
-          Go to vaccines
+          See the vaccines
         </Link>
         <section>
           <strong>Select : </strong>

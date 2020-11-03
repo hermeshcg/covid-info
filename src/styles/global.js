@@ -8,7 +8,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  h1, p, a, strong,span{
+  h1,h2, h3, p, a, strong,span{
     font-family: Roboto, sans-serif;
   }
 

@@ -7,9 +7,12 @@ export const Container = styled.div`
   min-width: 100vw;
   height: 100px;
   background: #e3e3e3;
-  h1 {
+  .link {
+    text-decoration: none;
     color: #cb3737;
     margin: 0 40px;
+    font-weight: bold;
+    font-size: 28px;
   }
   aside {
     display: flex;

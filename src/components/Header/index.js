@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container } from './styles';
 
 function Header() {
   return (
     <Container>
-      <h1>Covid Info Pannel</h1>
+      <Link to="/" className="link">
+        Covid Info Pannel
+      </Link>
       <aside>
         <strong>
           API documentation:{' '}

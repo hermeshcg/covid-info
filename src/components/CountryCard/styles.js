@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   section {
-    width: 70%;
-    height: 70vh;
+    width: 100%;
+    height: 70%;
     background: #e3e3e3;
     border-radius: 8px;
     border: 1px solid #cb3737;
@@ -32,7 +32,7 @@ export const Container = styled.div`
       align-items: flex-start;
       justify-content: center;
       flex-direction: column;
-
+      margin: 30px;
       strong {
         margin: 10px 0;
         span {

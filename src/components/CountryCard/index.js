@@ -23,7 +23,8 @@ function CountryCard({ data }) {
             Continent: <span>{data.continent}</span>
           </strong>
           <strong>
-            Population: <span>{data.population}</span>
+            Population:{' '}
+            <span>{Intl.NumberFormat('pt-BR').format(data.population)}</span>
           </strong>
           <strong>
             Last update: <span>{formattedTime}</span>
@@ -31,25 +32,40 @@ function CountryCard({ data }) {
         </div>
         <div className="left">
           <strong>
-            Total cases: <span>{data.cases}</span>
+            Total cases:{' '}
+            <span>{Intl.NumberFormat('pt-BR').format(data.cases)}</span>
           </strong>
           <strong>
-            Total cases today: <span>{data.todayCases}</span>
+            Total cases today:{' '}
+            <span>{Intl.NumberFormat('pt-BR').format(data.todayCases)}</span>
           </strong>
           <strong>
-            Total deaths: <span>{data.deaths}</span>
+            Total deaths:{' '}
+            <span>{Intl.NumberFormat('pt-BR').format(data.deaths)}</span>
           </strong>
           <strong>
-            Total deaths today: <span>{data.todayDeaths}</span>
+            Total deaths today:{' '}
+            <span>{Intl.NumberFormat('pt-BR').format(data.todayDeaths)}</span>
           </strong>
           <strong>
-            Total recovered: <span>{data.recovered}</span>
+            Total recovered:{' '}
+            <span>{Intl.NumberFormat('pt-BR').format(data.recovered)}</span>
           </strong>
           <strong>
-            Total recovered today: <span>{data.todayRecovered}</span>
+            Total recovered today:{' '}
+            <span>
+              {Intl.NumberFormat('pt-BR').format(data.todayRecovered)}
+            </span>
           </strong>
           <strong>
-            Total tests: <span>{data.tests}</span>
+            Total tests:{' '}
+            <span>{Intl.NumberFormat('pt-BR').format(data.tests)}</span>
+          </strong>
+          <strong>
+            Tests per one million:{' '}
+            <span>
+              {Intl.NumberFormat('pt-BR').format(data.testsPerOneMillion)}
+            </span>
           </strong>
         </div>
       </section>

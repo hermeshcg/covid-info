@@ -21,6 +21,9 @@ export const Container = styled.div`
     flex-direction: column;
     strong {
       margin: 10px;
+      span {
+        font-weight: 400;
+      }
     }
   }
 `;

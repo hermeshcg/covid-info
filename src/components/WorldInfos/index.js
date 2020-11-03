@@ -5,28 +5,35 @@ import { Container } from './styles';
 function WorldInfos({ data }) {
   return (
     <Container>
-      <h1>WORLD INFORMATIONS</h1>
+      <h1>Information about covid worldwide</h1>
       <main>
         <strong>
-          Total cases: <span>{data.cases}</span>
+          Total cases:{' '}
+          <span>{Intl.NumberFormat('pt-BR').format(data.cases)}</span>
         </strong>
         <strong>
-          Total cases today: <span>{data.todayCases}</span>
+          Total cases today:{' '}
+          <span>{Intl.NumberFormat('pt-BR').format(data.todayCases)}</span>
         </strong>
         <strong>
-          Total deaths: <span>{data.deaths}</span>
+          Total deaths:{' '}
+          <span>{Intl.NumberFormat('pt-BR').format(data.deaths)}</span>
         </strong>
         <strong>
-          Total deaths today: <span>{data.todayDeaths}</span>
+          Total deaths today:{' '}
+          <span>{Intl.NumberFormat('pt-BR').format(data.todayDeaths)}</span>
         </strong>
         <strong>
-          Total recovered: <span>{data.recovered}</span>
+          Total recovered:{' '}
+          <span>{Intl.NumberFormat('pt-BR').format(data.recovered)}</span>
         </strong>
         <strong>
-          Total recovered today: <span>{data.todayRecovered}</span>
+          Total recovered today:{' '}
+          <span>{Intl.NumberFormat('pt-BR').format(data.todayRecovered)}</span>
         </strong>
         <strong>
-          Total tests: <span>{data.tests}</span>
+          Total tests:{' '}
+          <span>{Intl.NumberFormat('pt-BR').format(data.tests)}</span>
         </strong>
         <strong>
           Affected countries: <span>{data.affectedCountries}</span>

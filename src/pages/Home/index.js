@@ -26,9 +26,13 @@ function Home() {
   }
 
   async function getData() {
-    const response = await api.get(`countries/${country}`);
-    const data = response.data;
-    setCountryData(data);
+    await api
+      .get(`countries/${country}`)
+      .then((response) => {
+        const data = response.data;
+        setCountryData(data);
+      })
+      .catch((error) => alert("Country not found or doesn't have any cases"));
   }
 
   return (

@@ -9,7 +9,9 @@ function Home() {
   return (
     <Container>
       <Header />
-      <Link to="/">Go back</Link>
+      <Link className="link" to="/">
+        Go back
+      </Link>
     </Container>
   );
 }

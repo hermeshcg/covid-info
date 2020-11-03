@@ -18,7 +18,7 @@ function Header() {
           </a>
         </strong>
         <strong>
-          Data sourced from{' '}
+          Data sourced from:{' '}
           <a
             href="https://www.worldometers.info/coronavirus/"
             target="_blank"

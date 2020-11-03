@@ -5,12 +5,12 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  .link {
+  .linkVac {
     text-decoration: none;
     margin: 20px 20px;
     color: #ee6f57;
   }
-  .link:hover {
+  .linkVac:hover {
     color: #cb3737;
   }
 `;

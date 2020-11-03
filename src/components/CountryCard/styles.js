@@ -41,4 +41,23 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 800px) {
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 90%;
+      .right {
+        padding: 0;
+        border: none;
+        margin: 10px 40px 0 40px;
+      }
+      .left {
+        margin: 0 40px;
+        padding: 0;
+      }
+    }
+  }
 `;

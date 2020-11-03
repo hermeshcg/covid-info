@@ -21,7 +21,7 @@ function CountryInfo({ handleGetData, data, setCountryInput }) {
       {data && Object.keys(data).length > 0 ? (
         <CountryCard data={data} />
       ) : (
-        <h1>Insert a country</h1>
+        <h3>Insert a country</h3>
       )}
     </Container>
   );

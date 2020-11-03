@@ -50,7 +50,7 @@ function Home() {
       </main>
 
       {mode === '' ? (
-        <h1>Select between world or country to see the data</h1>
+        <h3>Select between world or country to see the data</h3>
       ) : mode === 'world' ? (
         <WorldInfos data={worldData} />
       ) : (

@@ -24,7 +24,7 @@ function Home() {
   return (
     <Container>
       <Header />
-      <Link className="link" to="/">
+      <Link className="linkVac" to="/">
         Go back
       </Link>
       <section>

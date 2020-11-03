@@ -18,9 +18,9 @@ function CountryCard({ data }) {
     ':' +
     seconds.substr(-2) +
     ' | ' +
-    month +
-    '/' +
     day +
+    '/' +
+    month +
     '/' +
     year;
   return (

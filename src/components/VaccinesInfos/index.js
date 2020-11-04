@@ -34,7 +34,7 @@ function VaccinesInfos({ data }) {
           <div className="candidate">
             <h2>Each candidate</h2>
             {data.data.map((candidate) => (
-              <div key={candidate.candidate} className="candidate">
+              <div key={candidate.details} className="candidate">
                 <strong>
                   Candidate: <span>{candidate.candidate}</span>
                 </strong>

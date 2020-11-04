@@ -5,8 +5,8 @@ import { Container } from './styles';
 function CountryCard({ data }) {
   let unix_timestamp = data.updated;
   var date = new Date(unix_timestamp);
-  var day = date.getDay();
-  var month = date.getMonth();
+  var day = date.getDay() + 1;
+  var month = date.getMonth() + 1;
   var year = date.getFullYear();
   var hours = date.getHours();
   var minutes = '0' + date.getMinutes();

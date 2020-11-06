@@ -2,4 +2,4 @@
 
 This project was developed using ReactJS, styled-components and axio 
 
-You can preview the site [here](infocovid-five.vercel.app)
+You can preview the site [here](https://infocovid-five.vercel.app)

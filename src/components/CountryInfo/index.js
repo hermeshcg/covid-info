@@ -8,16 +8,18 @@ import { Container } from './styles';
 function CountryInfo({ handleGetData, data, setCountryInput }) {
   return (
     <Container>
-      <div className="search-area">
-        <input
-          placeholder="Search for a country"
-          type="text"
-          onChange={(e) => setCountryInput(e.target.value)}
-        />
-        <button onClick={handleGetData}>
-          <FaSearch />
-        </button>
-      </div>
+      <form onSubmit={handleGetData}>
+        <div className="search-area">
+          <input
+            placeholder="Search for a country"
+            type="text"
+            onChange={(e) => setCountryInput(e.target.value)}
+          />
+          <button onClick={handleGetData}>
+            <FaSearch />
+          </button>
+        </div>
+      </form>
       {data && Object.keys(data).length > 0 ? (
         <CountryCard data={data} />
       ) : (

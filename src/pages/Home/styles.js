@@ -39,7 +39,7 @@ export const Container = styled.div`
       .b1:hover {
         cursor: pointer;
         background: #ee6f57;
-        color: #ccc;
+        color: #fff;
       }
       .b2 {
         width: 100px;
@@ -52,7 +52,7 @@ export const Container = styled.div`
       }
       .b2:hover {
         cursor: pointer;
-        color: #ccc;
+        color: #fff;
         background: #ee6f57;
       }
     }

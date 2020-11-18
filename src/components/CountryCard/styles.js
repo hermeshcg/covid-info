@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 70%;
     background: #e3e3e3;
     border-radius: 8px;
-    border: 1px solid #cb3737;
+    box-shadow: 1px 1px 3px #cb3737;
     display: flex;
     align-items: center;
     justify-content: space-between;

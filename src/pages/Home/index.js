@@ -7,6 +7,7 @@ import CountryInfo from '../../components/CountryInfo';
 
 import { Container } from './styles';
 import api from '../../services/api';
+//ignore
 
 function Home() {
   const [worldData, setWorldData] = useState({});
@@ -25,7 +26,8 @@ function Home() {
     setMode('country');
   }
 
-  async function getData() {
+  async function getData(event) {
+    event.preventDefault();
     await api
       .get(`countries/${country}`)
       .then((response) => {

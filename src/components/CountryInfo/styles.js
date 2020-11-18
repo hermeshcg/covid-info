@@ -35,4 +35,8 @@ export const Container = styled.div`
       background: #aaa;
     }
   }
+
+  h3 {
+    margin: 10px 0;
+  }
 `;

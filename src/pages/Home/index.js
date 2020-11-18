@@ -7,7 +7,6 @@ import CountryInfo from '../../components/CountryInfo';
 
 import { Container } from './styles';
 import api from '../../services/api';
-//ignore
 
 function Home() {
   const [worldData, setWorldData] = useState({});

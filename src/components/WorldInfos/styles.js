@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 70vh;
   background: #e3e3e3;
   border-radius: 8px;
-  box-shadow: 1px 1px 3px #cb3737;
+  box-shadow: 0 1px 3px;
   display: flex;
   align-items: center;
   justify-content: center;

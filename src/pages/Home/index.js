@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import WorldInfos from '../../components/WorldInfos';
@@ -9,6 +10,7 @@ import { Container } from './styles';
 import api from '../../services/api';
 
 function Home() {
+  const history = useHistory();
   const [worldData, setWorldData] = useState({});
   const [countryData, setCountryData] = useState({});
   const [country, setCountry] = useState('');
@@ -33,7 +35,10 @@ function Home() {
         const data = response.data;
         setCountryData(data);
       })
-      .catch((error) => alert("Country not found or doesn't have any cases"));
+      .catch((error) => {
+        alert("Country not found or doesn't have any cases");
+        history.push('/');
+      });
   }
 
   return (

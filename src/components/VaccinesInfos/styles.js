@@ -8,12 +8,12 @@ export const Container = styled.div`
   width: 90%;
   margin: 10px auto 20px auto;
   background: #e3e3e3;
-  box-shadow: 1px 1px 3px #cb3737;
+  box-shadow: 0 1px 3px;
   border-radius: 8px;
   padding: 40px;
   h1 {
     font-size: 26px;
-    margin: 10px;
+    margin: 10px 0;
   }
 
   p {
@@ -33,7 +33,7 @@ export const Container = styled.div`
     h2 {
       border-top: 1px solid #cb3737;
       font-size: 22px;
-      margin: 10px;
+      margin: 10px 0;
       width: 100%;
     }
     .phase {

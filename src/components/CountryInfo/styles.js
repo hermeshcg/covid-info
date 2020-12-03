@@ -27,12 +27,13 @@ export const Container = styled.div`
       border: 1px solid #cb3737;
       background: #ccc;
       border-bottom-right-radius: 8px;
+      border-left: none;
       border-top-right-radius: 8px;
       border-left: none;
     }
     button:hover {
       cursor: pointer;
-      background: #aaa;
+      background: #bbb;
     }
   }
 

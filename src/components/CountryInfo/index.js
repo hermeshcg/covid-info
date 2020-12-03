@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaSearch } from 'react-icons/fa';
 
-import CountryCard from '../CountryCard';
+import CountryCard from './CountryCard';
 
 import { Container } from './styles';
 

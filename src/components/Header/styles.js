@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   min-width: 100vw;
-  height: 100px;
+  height: 64px;
   background: #e3e3e3;
   .link {
     text-decoration: none;

@@ -45,9 +45,6 @@ function Home() {
     <Container>
       <Header />
       <main>
-        <Link className="link" to="/vaccines">
-          See the vaccines
-        </Link>
         <section>
           <strong>Select : </strong>
           <button onClick={handleGetWorldData} className="b1">

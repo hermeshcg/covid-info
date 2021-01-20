@@ -2,4 +2,4 @@
 
 This project was developed using ReactJS, styled-components and axios
 
-Site has been shut down
+You can see the api documentation [here](https://disease.sh/docs/#/)

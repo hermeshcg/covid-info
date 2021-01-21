@@ -23,6 +23,7 @@ function CountryCard({ data }) {
     month +
     '/' +
     year;
+
   return (
     <Container>
       <section>

@@ -7,7 +7,7 @@ function Header() {
   return (
     <Container>
       <Link to="/" className="link">
-        Covid Info Pannel
+        Covid-19 data
       </Link>
       <aside>
         <strong>

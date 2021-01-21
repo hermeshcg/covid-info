@@ -12,6 +12,18 @@ export default createGlobalStyle`
     font-family: Roboto, sans-serif;
   }
 
+  h1{
+    font-size: 22px;
+  }
+
+  strong{
+    font-size: 16px;
+  }
+
+  span{
+    font-size: 16px;
+  }
+
   body{
     background: #fafafa;
   }

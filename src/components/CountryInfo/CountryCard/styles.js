@@ -4,7 +4,7 @@ export const Container = styled.div`
   section {
     width: 100%;
     height: 70%;
-    background: #e3e3e3;
+    background: #fff;
     border-radius: 8px;
     box-shadow: 0 1px 3px;
     display: flex;

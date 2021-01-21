@@ -6,10 +6,10 @@ export const Container = styled.div`
   justify-content: space-between;
   min-width: 100vw;
   height: 64px;
-  background: #e3e3e3;
+  background: #ea7171;
   .link {
     text-decoration: none;
-    color: #cb3737;
+    color: #fafafa;
     margin: 0 40px;
     font-weight: bold;
     font-size: 28px;
@@ -21,11 +21,11 @@ export const Container = styled.div`
     flex-direction: column;
     strong {
       margin: 3px 40px;
-      color: #cb3737;
+      color: #ddd;
       font-size: 14px;
       a {
         text-decoration: none;
-        color: #ee6f57;
+        color: #fff;
       }
       a:hover {
         text-decoration: underline;

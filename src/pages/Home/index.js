@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 import Header from '../../components/Header';
 import WorldInfos from '../../components/WorldInfos';
 import CountryInfo from '../../components/CountryInfo';
 
 import { Container } from './styles';
+
 import api from '../../services/api';
 
 function Home() {
-  const history = useHistory();
   const [worldData, setWorldData] = useState({});
   const [countryData, setCountryData] = useState({});
   const [country, setCountry] = useState('');
@@ -35,8 +35,7 @@ function Home() {
         setCountryData(data);
       })
       .catch((error) => {
-        alert("Country not found or doesn't have any cases");
-        history.push('/');
+        toast.error("Country not found or doesn't have any cases");
       });
   }
 
